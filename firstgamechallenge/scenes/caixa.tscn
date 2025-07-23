@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cewo1t05san2o"]
+
+[ext_resource type="Texture2D" uid="uid://buknxyh47mh4j" path="res://assets/box.png" id="1_a26xw"]
+
+[node name="Box2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 1)
+zoom = Vector2(3, 3)
+editor_draw_drag_margin = true
+
+[node name="box" type="Sprite2D" parent="."]
+auto_translate_mode = 1
+texture_filter = 1
+texture_repeat = 1
+texture = ExtResource("1_a26xw")
