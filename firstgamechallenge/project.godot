@@ -11,5 +11,13 @@ config_version=5
 [application]
 
 config/name="FirstGameChallenge"
-config/features=PackedStringArray("4.3", "Forward Plus")
+run/main_scene="res://scenes/mapa/local_1.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=900
+window/size/viewport_height=600
+window/size/initial_position_type=0
+window/stretch/mode="viewport"
